@@ -1,0 +1,974 @@
+{
+  "Status": "OK", 
+  "CfgID": "cfg2", 
+  "Parameters": [
+    {
+      "Description": "", 
+      "DisplayedName": null, 
+      "GMEID": "id-0067-00008d96", 
+      "Value": "", 
+      "Range": "-inf..inf", 
+      "ID": "b8c86bce-e64c-4d0c-8be1-f775fb2aff8e", 
+      "Unit": "", 
+      "Name": "_ignore"
+    }
+  ], 
+  "Created": "2017-01-03T17:04:56.1985340Z", 
+  "Artifacts": [], 
+  "VisualizationArtifacts": [], 
+  "DesignName": "SLBM_cfg2", 
+  "Metrics": [
+    {
+      "GMEID": "id-0067-00008d7f", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "df8b35e8-1763-4622-89fd-4cb40b76973e", 
+      "Unit": "", 
+      "Name": "ID_PositionAide_b"
+    }, 
+    {
+      "GMEID": "id-0067-00008d83", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "6676bacc-094b-4e36-8657-8067343500b7", 
+      "Unit": "", 
+      "Name": "INS_AccelBias"
+    }, 
+    {
+      "GMEID": "id-0067-00008d87", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "33ffca46-98a9-483f-be28-4b0224b20de3", 
+      "Unit": "", 
+      "Name": "Velocity_Aide_MTBF"
+    }, 
+    {
+      "GMEID": "id-0067-00008d8c", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "0a743fec-e109-4212-99db-aa5a5af0c30c", 
+      "Unit": "", 
+      "Name": "INS_TRL"
+    }, 
+    {
+      "GMEID": "id-0067-00008d84", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "1b77a8e1-0077-4b59-8a88-cd7938ddd28f", 
+      "Unit": "", 
+      "Name": "Velocity_Aide_TRL"
+    }, 
+    {
+      "GMEID": "id-0067-00008d8d", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "ee50c367-4c29-4885-a8ce-b4beff09eeed", 
+      "Unit": "", 
+      "Name": "Intertial_AccelScale"
+    }, 
+    {
+      "GMEID": "id-0067-00008d8e", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "91fd17c0-993f-43d8-afe5-e80d326a588f", 
+      "Unit": "", 
+      "Name": "INS_MTBF"
+    }, 
+    {
+      "GMEID": "id-0067-00008d82", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "5068ae27-9fe8-46b3-9cae-eb225f034e04", 
+      "Unit": "", 
+      "Name": "INS_GyroARW"
+    }, 
+    {
+      "GMEID": "id-0067-00008d81", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "46abf9d4-9b0d-4b98-8e6e-3011aff552b9", 
+      "Unit": "", 
+      "Name": "Position_Aides_TTFF"
+    }, 
+    {
+      "GMEID": "id-0067-00008d85", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "c8b63961-b7f6-4d79-8e84-5a6e866555e0", 
+      "Unit": "", 
+      "Name": "Intertial_MTBF"
+    }, 
+    {
+      "GMEID": "id-0067-00008d7d", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "57b828bc-c09e-4d0a-a200-c74e6bccec40", 
+      "Unit": "", 
+      "Name": "Added_Inertial_PctTimeFixAvailable"
+    }, 
+    {
+      "GMEID": "id-0067-00008d7c", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "ef20d2ff-e645-494a-829d-87991e08a127", 
+      "Unit": "", 
+      "Name": "ID_VelocityAide"
+    }, 
+    {
+      "GMEID": "id-0067-00008d7e", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "a3a553de-5a2b-4893-846f-dfb7d85b6308", 
+      "Unit": "", 
+      "Name": "Position_Aides_MTBF_Product"
+    }, 
+    {
+      "GMEID": "id-0067-00008d86", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "9d6d96ca-32ac-44dd-8f8c-7e66f90ad7ce", 
+      "Unit": "", 
+      "Name": "Added_Inertial_MTBF"
+    }, 
+    {
+      "GMEID": "id-0067-00008d88", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "10661eb8-e7f2-4fa4-a8bf-b7c513ea2d59", 
+      "Unit": "", 
+      "Name": "INS_GyroScaleFactor"
+    }, 
+    {
+      "GMEID": "id-0067-00008d89", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "e6eb98b6-9f33-4d9a-9aa4-c7bfa7a583fc", 
+      "Unit": "", 
+      "Name": "Position_Aides_TRL"
+    }, 
+    {
+      "GMEID": "id-0067-00008d8a", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "c0f158a5-71f0-42a7-a1b8-7cfd5f824008", 
+      "Unit": "", 
+      "Name": "Position_Aides_ExposureTime"
+    }, 
+    {
+      "GMEID": "id-0067-00008d80", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "676742c8-15b8-41dd-a761-49f251d75821", 
+      "Unit": "", 
+      "Name": "Velocity_Aide_ExposureTime"
+    }, 
+    {
+      "GMEID": "id-0067-00008d8b", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "0dc6a37e-aa7a-4603-afe3-69daf5c117dd", 
+      "Unit": "", 
+      "Name": "Added_Inertial_TRL"
+    }, 
+    {
+      "GMEID": "id-0067-00008da6", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "0a773612-ed1f-4aec-9a77-186afe7bc6cc", 
+      "Unit": "", 
+      "Name": "Position_Aide_b_Mass"
+    }, 
+    {
+      "GMEID": "id-0067-00008da8", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "6588c56f-775f-4b73-ac30-7072e8bcfc45", 
+      "Unit": "Degree Angle", 
+      "Name": "INS_AccelAxisAlign"
+    }, 
+    {
+      "GMEID": "id-0067-00008da9", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "86515046-30d4-40f3-98fd-f460c621116f", 
+      "Unit": "", 
+      "Name": "Position_Aide_a_TTFF"
+    }, 
+    {
+      "GMEID": "id-0067-00008da7", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "78c49305-74c2-495a-a382-b0cc49be3654", 
+      "Unit": "", 
+      "Name": "Position_Aide_b_TTFF"
+    }, 
+    {
+      "GMEID": "id-0067-00008daa", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "54e39060-f99b-4f58-aac2-c68a1542df0a", 
+      "Unit": "Degree Angle", 
+      "Name": "Intertial_GyroAxisAlign"
+    }, 
+    {
+      "GMEID": "id-0067-00008dab", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "a41172fc-1e49-4e17-be2a-8d7df8d026a5", 
+      "Unit": "", 
+      "Name": "Position_Aide_b_Volume"
+    }, 
+    {
+      "GMEID": "id-0067-00008dac", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "de8ec23a-7edf-4497-9207-e0d19b7fa422", 
+      "Unit": "", 
+      "Name": "Position_Aide_a_Accuracy"
+    }, 
+    {
+      "GMEID": "id-0067-00008dad", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "887b51c9-aa88-4052-b0cf-359b7800f339", 
+      "Unit": "", 
+      "Name": "Position_Aide_a_Mass"
+    }, 
+    {
+      "GMEID": "id-0067-00008da3", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "ae6da3e9-1574-443e-acb7-e19fd3fad4ea", 
+      "Unit": "", 
+      "Name": "Missile_Inertial_Guidance_Name"
+    }, 
+    {
+      "GMEID": "id-0067-00008dae", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "1ad7c6f0-9d14-4ed8-ab2a-5a1af57eadf9", 
+      "Unit": "", 
+      "Name": "Position_Aide_a_Volume"
+    }, 
+    {
+      "GMEID": "id-0067-00008d8f", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "967d5e95-eeb8-4507-8917-93facbafd543", 
+      "Unit": "", 
+      "Name": "ID_AddedInertialGuidance"
+    }, 
+    {
+      "GMEID": "id-0067-00008d91", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "a432eac4-d273-44da-b512-b73f008d7c83", 
+      "Unit": "", 
+      "Name": "Intertial_GyroScaleFactor"
+    }, 
+    {
+      "GMEID": "id-0067-00008d97", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "ccf0c0ff-2648-4e52-a786-594d73a80a74", 
+      "Unit": "", 
+      "Name": "Intertial_TRL"
+    }, 
+    {
+      "GMEID": "id-0067-00008d99", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "f4ec9a5c-94c1-4992-89c6-74b6f5d6e5d2", 
+      "Unit": "", 
+      "Name": "Velocity_Aide_PctTimeFixAvailable"
+    }, 
+    {
+      "GMEID": "id-0067-00008d9a", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "0d66e225-e9f6-4f39-a3ac-ced5b7e7d6c9", 
+      "Unit": "", 
+      "Name": "ID_IntertialGuidance"
+    }, 
+    {
+      "GMEID": "id-0067-00008d9c", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "ab106ff2-d66a-46e7-a6c5-cd3dfb1bbb58", 
+      "Unit": "", 
+      "Name": "INS_Name"
+    }, 
+    {
+      "GMEID": "id-0067-00008d9d", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "f268c28d-bbfa-446d-bf9b-f6cf165caa80", 
+      "Unit": "", 
+      "Name": "Position_Aide_b_Name"
+    }, 
+    {
+      "GMEID": "id-0067-00008d9e", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "7d3b7240-611e-4dff-aa1d-58cd8819593b", 
+      "Unit": "", 
+      "Name": "Position_Aide_a_Name"
+    }, 
+    {
+      "GMEID": "id-0067-00008da1", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "ab374ba2-c4d7-400f-902c-6ffe2e56e8ca", 
+      "Unit": "", 
+      "Name": "Velocity_Aide_Name"
+    }, 
+    {
+      "GMEID": "id-0067-00008d92", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "630e3eab-9659-45be-80d3-86609b312969", 
+      "Unit": "", 
+      "Name": "Position_Aides_PctTimeFixAvailable"
+    }, 
+    {
+      "GMEID": "id-0067-00008d9f", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "e336ff0c-261a-4491-b24d-c1879c7b9d25", 
+      "Unit": "", 
+      "Name": "ID_PositionAide_a"
+    }, 
+    {
+      "GMEID": "id-0067-00008da2", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "662813b9-26ca-4e81-aaf9-d4637dedadd8", 
+      "Unit": "", 
+      "Name": "INS_ID"
+    }, 
+    {
+      "GMEID": "id-0067-00008da4", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "e1496a2b-6919-46e1-a1bc-54d7f3788215", 
+      "Unit": "", 
+      "Name": "Position_Aide_b_CL"
+    }, 
+    {
+      "GMEID": "id-0067-00008da5", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "373582de-0c72-4d93-a210-b5b0b27969a4", 
+      "Unit": "Degree Angle", 
+      "Name": "Intertial_AccelAxisAlign"
+    }, 
+    {
+      "GMEID": "id-0067-00008d98", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "1b5861ab-356d-4bd8-a23b-555f52038b9c", 
+      "Unit": "", 
+      "Name": "Position_Aides_CDThreatFactor"
+    }, 
+    {
+      "GMEID": "id-0067-00008d95", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "8ed17cdf-1607-445a-bd90-18271c504a05", 
+      "Unit": "", 
+      "Name": "Position_Aides_Mass"
+    }, 
+    {
+      "GMEID": "id-0067-00008d94", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "de2b6edf-6f3a-44c6-b0fb-b8c8dae357a8", 
+      "Unit": "", 
+      "Name": "INS_FBF"
+    }, 
+    {
+      "GMEID": "id-0067-00008d93", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "af07f1a9-d808-4a41-833d-7cc15c6021d5", 
+      "Unit": "", 
+      "Name": "Position_Aides_Accuracy"
+    }, 
+    {
+      "GMEID": "id-0067-00008d90", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "eb8eb51b-91dc-48df-8588-07d79223d0e5", 
+      "Unit": "", 
+      "Name": "Intertial_GyroARW"
+    }, 
+    {
+      "GMEID": "id-0067-00008d9b", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "0f5747cb-765f-4d3b-a077-8742b82767a3", 
+      "Unit": "", 
+      "Name": "INS_Quantity"
+    }, 
+    {
+      "GMEID": "id-0067-00008da0", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "47fc24e1-ad5a-438e-a3bd-bb11a2c7f42b", 
+      "Unit": "", 
+      "Name": "Missile_Added_Inertial_Guidance_Name"
+    }, 
+    {
+      "GMEID": "id-0067-00008daf", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "b8b7d80b-a6e0-4185-a1f0-e632b85989bd", 
+      "Unit": "", 
+      "Name": "INS_AccelScaleFactor"
+    }, 
+    {
+      "GMEID": "id-0067-00008db6", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "159cdb52-bf26-4909-822c-e944e477b282", 
+      "Unit": "", 
+      "Name": "Position_Aide_a_CL"
+    }, 
+    {
+      "GMEID": "id-0067-00008db3", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "3c1a7bd9-e187-4568-87e7-fc3501dd0111", 
+      "Unit": "", 
+      "Name": "Position_Aide_a_MTBF"
+    }, 
+    {
+      "GMEID": "id-0067-00008db7", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "f172a18e-b441-429e-ad21-3a45eedf068c", 
+      "Unit": "", 
+      "Name": "Intertial_Mass"
+    }, 
+    {
+      "GMEID": "id-0067-00008db0", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "24dda56a-dbf5-4d69-b484-814a580b321f", 
+      "Unit": "", 
+      "Name": "Intertial_Volume"
+    }, 
+    {
+      "GMEID": "id-0067-00008db4", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "47072131-1c5c-4d79-b07c-9d3c35456142", 
+      "Unit": "", 
+      "Name": "Position_Aide_b_Accuracy"
+    }, 
+    {
+      "GMEID": "id-0067-00008db9", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "2001b430-3bb5-485d-83e1-8f55a83f6722", 
+      "Unit": "Degree Angle", 
+      "Name": "INS_GyroAxisAlign"
+    }, 
+    {
+      "GMEID": "id-0067-00008db8", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "bb98325f-c447-4789-a89b-e7f9d6af18cf", 
+      "Unit": "", 
+      "Name": "Added_Inertial_Accuracy"
+    }, 
+    {
+      "GMEID": "id-0067-00008db1", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "f7fac481-9b63-4fc4-98a1-267fb001e602", 
+      "Unit": "", 
+      "Name": "INS_Volume"
+    }, 
+    {
+      "GMEID": "id-0067-00008dba", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "24826ad6-1562-497a-9ce7-b73b8832d2e8", 
+      "Unit": "", 
+      "Name": "Position_Aide_b_MTBF"
+    }, 
+    {
+      "GMEID": "id-0067-00008db2", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "480dd923-efa2-4537-9a72-73e43040ef72", 
+      "Unit": "", 
+      "Name": "Intertial_AccelBias"
+    }, 
+    {
+      "GMEID": "id-0067-00008db5", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "38b4fef2-b815-40bf-be88-7080360571e2", 
+      "Unit": "", 
+      "Name": "INS_Mass"
+    }
+  ], 
+  "DesignID": "{57ef556d-1358-442e-8cf8-b48c93cc79d6}", 
+  "Dependencies": [], 
+  "Steps": [
+    {
+      "ExecutionCompletionTimestamp": "2017-01-03T11:05:14.179000", 
+      "Status": "OK", 
+      "Description": "ParametricExploration", 
+      "Parameters": [], 
+      "ExecutionStartTimestamp": "2017-01-03T11:04:56.897000", 
+      "PreProcess": null, 
+      "PostProcess": null, 
+      "Invocation": "python.exe -E -m run_mdao", 
+      "LogFile": "log/log2017-01-03T110456.897000.log", 
+      "Type": null
+    }
+  ], 
+  "TestBench": "RetrieveSystemModelProps", 
+  "Design": {
+    "Type": "Compound", 
+    "Name": "SLBM", 
+    "Children": [
+      {
+        "Type": "Compound", 
+        "Name": "Missile", 
+        "Children": [
+          {
+            "Type": "Compound", 
+            "Name": "Guidance", 
+            "Children": [
+              {
+                "Type": "Alternative", 
+                "Name": "Inertial", 
+                "Children": [
+                  {
+                    "Selected": false, 
+                    "Type": "Component", 
+                    "Name": "StrapDown"
+                  }, 
+                  {
+                    "Selected": true, 
+                    "Type": "Component", 
+                    "Name": "Gimbaled_InertialGuidance"
+                  }
+                ]
+              }, 
+              {
+                "Type": "Alternative", 
+                "Name": "AddedInertial", 
+                "Children": [
+                  {
+                    "Selected": false, 
+                    "Type": "Component", 
+                    "Name": "GPS"
+                  }, 
+                  {
+                    "Selected": false, 
+                    "Type": "Component", 
+                    "Name": "MultiStar"
+                  }, 
+                  {
+                    "Selected": false, 
+                    "Type": "Component", 
+                    "Name": "TwoStar"
+                  }, 
+                  {
+                    "Selected": true, 
+                    "Type": "Component", 
+                    "Name": "SingleStar"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }, 
+      {
+        "Type": "Compound", 
+        "Name": "Shipboard", 
+        "Children": [
+          {
+            "Type": "Alternative", 
+            "Name": "PlatformNavigation", 
+            "Children": [
+              {
+                "Type": "Alternative", 
+                "Name": "INS-1", 
+                "Children": [
+                  {
+                    "Selected": false, 
+                    "Type": "Component", 
+                    "Name": "FlightGuidance"
+                  }, 
+                  {
+                    "Selected": true, 
+                    "Type": "Component", 
+                    "Name": "RLGN"
+                  }, 
+                  {
+                    "Selected": false, 
+                    "Type": "Component", 
+                    "Name": "TacticalShipNavigator"
+                  }, 
+                  {
+                    "Selected": false, 
+                    "Type": "Component", 
+                    "Name": "FOG"
+                  }
+                ]
+              }, 
+              {
+                "Type": "Compound", 
+                "Name": "INS-3", 
+                "Children": [
+                  {
+                    "Type": "Alternative", 
+                    "Name": "INS_a", 
+                    "Children": [
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "FlightGuidance"
+                      }, 
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "TacticalShipNavigator"
+                      }, 
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "RLGN"
+                      }, 
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "FOG"
+                      }
+                    ]
+                  }, 
+                  {
+                    "Type": "Alternative", 
+                    "Name": "INS_b", 
+                    "Children": [
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "TacticalShipNavigator"
+                      }, 
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "FlightGuidance"
+                      }, 
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "RLGN"
+                      }, 
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "FOG"
+                      }
+                    ]
+                  }, 
+                  {
+                    "Type": "Alternative", 
+                    "Name": "INS_c", 
+                    "Children": [
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "FOG"
+                      }, 
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "FlightGuidance"
+                      }, 
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "RLGN"
+                      }, 
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "TacticalShipNavigator"
+                      }
+                    ]
+                  }
+                ]
+              }, 
+              {
+                "Type": "Compound", 
+                "Name": "INS-2", 
+                "Children": [
+                  {
+                    "Type": "Alternative", 
+                    "Name": "INS_a", 
+                    "Children": [
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "FlightGuidance"
+                      }, 
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "TacticalShipNavigator"
+                      }, 
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "FOG"
+                      }, 
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "RLGN"
+                      }
+                    ]
+                  }, 
+                  {
+                    "Type": "Alternative", 
+                    "Name": "INS_b", 
+                    "Children": [
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "RLGN"
+                      }, 
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "TacticalShipNavigator"
+                      }, 
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "FOG"
+                      }, 
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "FlightGuidance"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }, 
+          {
+            "Type": "Compound", 
+            "Name": "Aides", 
+            "Children": [
+              {
+                "Type": "Compound", 
+                "Name": "PositionAides", 
+                "Children": [
+                  {
+                    "Type": "Alternative", 
+                    "Name": "PositionAide_a", 
+                    "Children": [
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "GPSMast"
+                      }, 
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "Bathymetric"
+                      }, 
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "GPSBuoy"
+                      }, 
+                      {
+                        "Selected": true, 
+                        "Type": "Component", 
+                        "Name": "Skymark"
+                      }
+                    ]
+                  }, 
+                  {
+                    "Type": "Alternative", 
+                    "Name": "PositionAide_b", 
+                    "Children": [
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "Skymark"
+                      }, 
+                      {
+                        "Selected": true, 
+                        "Type": "Component", 
+                        "Name": "GPSBuoy"
+                      }, 
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "GPSMast"
+                      }, 
+                      {
+                        "Selected": false, 
+                        "Type": "Component", 
+                        "Name": "Bathymetric"
+                      }
+                    ]
+                  }
+                ]
+              }, 
+              {
+                "Type": "Optional", 
+                "Name": "Velocity", 
+                "Children": [
+                  {
+                    "Selected": true, 
+                    "Type": "Component", 
+                    "Name": "VelocityAide_SingleUpdate"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

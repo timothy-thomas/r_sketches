@@ -1,0 +1,157 @@
+{
+  "Status": "FAILED", 
+  "CfgID": "cfg3", 
+  "Parameters": [
+    {
+      "Description": "", 
+      "DisplayedName": null, 
+      "GMEID": "id-0067-0000056a", 
+      "Value": "", 
+      "Range": "-inf..inf", 
+      "ID": "5d22acfd-4dae-4ab1-9d4a-3c1308d5f9d4", 
+      "Unit": "", 
+      "Name": "_ignore"
+    }
+  ], 
+  "Created": "2016-12-27T21:05:19.4982065Z", 
+  "Artifacts": [], 
+  "VisualizationArtifacts": [], 
+  "DesignName": "MyBoxChoices_cfg3", 
+  "Metrics": [
+    {
+      "GMEID": "id-0067-0000056c", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "69699146-a76e-4c48-98e6-cff5e2891643", 
+      "Unit": "", 
+      "Name": "B2M"
+    }, 
+    {
+      "GMEID": "id-0067-0000056d", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "7abf925c-c59d-43b8-a3cf-5bf9ee0cfda1", 
+      "Unit": "", 
+      "Name": "B2H"
+    }, 
+    {
+      "GMEID": "id-0067-0000056e", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "2d12fa27-b07a-4101-96a7-82fa863b74a6", 
+      "Unit": "", 
+      "Name": "B2W"
+    }, 
+    {
+      "GMEID": "id-0067-00000570", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "9da1e9e1-1e75-4cda-820b-6ef17ce6ddf7", 
+      "Unit": "", 
+      "Name": "B1H"
+    }, 
+    {
+      "GMEID": "id-0067-00000571", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "cf1b39e0-4d4a-4ce6-af7e-1b26cfc527fc", 
+      "Unit": "", 
+      "Name": "B1L"
+    }, 
+    {
+      "GMEID": "id-0067-00000573", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "042ee8f1-1b3d-4989-b9ae-a8d3837d635a", 
+      "Unit": "", 
+      "Name": "B1W"
+    }, 
+    {
+      "GMEID": "id-0067-0000056f", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "30c31a3c-a36b-486d-815a-8c1c60217658", 
+      "Unit": "", 
+      "Name": "B1M"
+    }, 
+    {
+      "GMEID": "id-0067-00000572", 
+      "Description": "", 
+      "DisplayedName": null, 
+      "VisualizationArtifacts": [], 
+      "Value": "", 
+      "ID": "96516b12-3b21-4400-b40e-031d3a12d100", 
+      "Unit": "", 
+      "Name": "B2L"
+    }
+  ], 
+  "DesignID": "{a6806ab8-b016-4cd4-a758-cef80a28b037}", 
+  "Dependencies": [], 
+  "Steps": [
+    {
+      "ExecutionCompletionTimestamp": "2016-12-27T15:05:21.006000", 
+      "Status": "FAILED", 
+      "Description": "ParametricExploration", 
+      "Parameters": [], 
+      "ExecutionStartTimestamp": "2016-12-27T15:05:19.940000", 
+      "Invocation": "python.exe -E -m run_mdao", 
+      "PostProcess": null, 
+      "PreProcess": null, 
+      "LogFile": "log/log2016-12-27T150519.940000.log", 
+      "Type": null
+    }
+  ], 
+  "TestBench": "ExtractDimensions", 
+  "Design": {
+    "Type": "Compound", 
+    "Name": "MyBoxChoices", 
+    "Children": [
+      {
+        "Type": "Optional", 
+        "Name": "Thing2", 
+        "Children": [
+          {
+            "Selected": true, 
+            "Type": "Component", 
+            "Name": "Box4"
+          }
+        ]
+      }, 
+      {
+        "Type": "Alternative", 
+        "Name": "Thing1", 
+        "Children": [
+          {
+            "Selected": false, 
+            "Type": "Component", 
+            "Name": "Box4"
+          }, 
+          {
+            "Selected": true, 
+            "Type": "Component", 
+            "Name": "Box2"
+          }, 
+          {
+            "Selected": false, 
+            "Type": "Component", 
+            "Name": "Box3"
+          }
+        ]
+      }
+    ]
+  }
+}
